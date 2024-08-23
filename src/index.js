@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Importe Routes e Route
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './global.css';
 import Home from './pages/Home/Home';
 import Colaboradores from './pages/Colaboradores/Colaboradores';
