@@ -1,0 +1,41 @@
+.containerSectionHome {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+}
+
+.titleHome {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #cc0000 0%, #cf0202 10%, #cc0000 70%, #e75353);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-width: 455px;
+}
+
+.subTitleHome {
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    max-width: 315px;
+}
+
+.containerButtonsLink {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+

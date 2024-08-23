@@ -1,0 +1,55 @@
+
+.containerButtonLink {
+    background: white;
+    width: 167px;
+    height: 167px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px #00000033;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; 
+}
+
+
+.linkButton {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    height: 100%;
+    cursor: pointer;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+
+.imgButton {
+    display: flex;
+    justify-content: center;
+    transition: filter 0.4s; 
+}
+
+.nameButton {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #3c3c3c;
+    transition: color 0.3s; 
+}
+
+.containerButtonLink:hover {
+    background-image: linear-gradient(to right, #bb0101, #d60202, #cf0202, #cc0000);
+    box-shadow: 0px 6px 12px #00000066; 
+}
+
+
+.containerButtonLink:hover .nameButton {
+    color: #FFFFFF; 
+}
+
+
+.containerButtonLink:hover .imgButton {
+    filter: grayscale(100%) invert(100%) brightness(100%);
+}

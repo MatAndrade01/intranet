@@ -1,0 +1,138 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-image: linear-gradient(to right, #bb0101, #d60202, #cf0202, #cc0000);
+    height: 50px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.logoPe {
+    width: 155px;
+    height: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.liNav {
+    list-style: none;
+    margin: auto;
+    position: relative;
+}
+
+.liNav:hover .notificationMenu,
+.liNav:hover .telephoneMenu,
+.liNav:hover .runMenu{
+    display: block;
+    transition: all 0.5s ease; /* Ajusta a duração e o tipo de transição */
+}
+
+.linkNav {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 17px 35px;
+}
+
+.linkNav:hover {
+    background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+
+.notificationMenu {
+    display: none;
+    position: absolute;
+    margin-top:  15px; ;
+    left: 0; 
+    background-image: linear-gradient(to top, #bb0101, #d60202, #cf0202, #cc0000);
+    padding: 25px;
+    border-radius: 0 0 20px 20px;
+    z-index: 1000; 
+}
+
+.liNotification {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.liNotification:hover {
+    background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
+}
+
+.linkNotification {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 8px 0;
+}
+
+.telephoneMenu {
+    display: none;
+    position: absolute;
+    margin-top:  15px; ;
+    left: 0;
+    background-image: linear-gradient(to top, #bb0101, #d60202, #cf0202, #cc0000);
+    padding: 39px;
+    border-radius: 0 0 20px 20px;
+    z-index: 1000;
+}
+
+.liTelephone {
+    list-style: none;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.liTelephone:hover {
+    background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
+}
+
+.linkTelephone {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 8px 0;
+}
+
+.runMenu {
+    display: none;
+    position: absolute;
+    margin-top:  15px; ;
+    left: 0;
+    background-image: linear-gradient(to top, #bb0101, #d60202, #cf0202, #cc0000);
+    padding: 50px;
+    border-radius: 0 0 20px 20px;
+    z-index: 1000;
+}
+
+.liRun {
+    list-style: none;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.liRun:hover {
+    background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
+}
+
+.linkRun {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 8px 0;
+}

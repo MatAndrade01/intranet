@@ -1,0 +1,60 @@
+.carousel {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.carouselSlides {
+    display: flex;
+    width: 700px;
+    overflow: hidden;
+}
+
+.carouselSlidesWrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carouselSlide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carouselButtonPrev, .carouselButtonNext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.281);
+    border: none;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carouselButtonPrev {
+    left: 350px;
+    
+}
+
+.carouselButtonNext {
+    right: 350px;
+}
+
+.containerText {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #0000004b; /* Ou qualquer cor de fundo que você preferir */
+}
+
+.text {
+    text-align: center;
+    color: #fff;  /* Cor do texto */
+    padding: 6px;
+    border-radius: 3px;
+}
