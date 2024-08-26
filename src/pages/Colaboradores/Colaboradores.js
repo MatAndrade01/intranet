@@ -5,7 +5,7 @@ import { CardColaborador } from '../../components/CardColaborador/CardColaborado
 
 function Colaboradores() {
     return (
-        <div className="colaboradores-container">
+        <div className="colaboradoresContainer">
             <Header/>
             <body className='bodyColaboradores'>
                 <h2 className='titleColaboradores'>Novos Colaboradores</h2>

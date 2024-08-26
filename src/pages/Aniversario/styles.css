@@ -1,0 +1,77 @@
+.bodyAniversariantes {
+    margin-top: 20px;
+}
+
+.titleAniversariantes {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #000000 0%, #050000 10%, #000000 70%, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: auto;
+    max-width: 455px;
+    margin-bottom: 25px;
+}
+
+.sectionSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.selectMes {
+    font-size: 1.1em;
+    color: #000000; 
+}
+
+#mes {
+    font-size: 1em;
+    padding: 10px 5px; 
+    border: 1px solid #ffffff00;
+    border-radius: 5px;
+    background-color: #f9f9f900; 
+    color: #000000;
+    cursor: pointer; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+#mes:hover,
+#mes:focus {
+    border-color: #b40000;
+    box-shadow: 0 0 5px rgba(192, 2, 2, 0.5);
+    outline: none;
+}
+
+
+.sectionAniversario {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px; 
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px; 
+    width: 90%;
+    border-radius: 15px;
+}
+
+.carregandoDados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+}
+
+.menssageSemAniversariante {
+    text-align: center; 
+    font-size: 1.2em; 
+    color: #666; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    width: 100%;
+}

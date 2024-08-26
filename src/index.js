@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './global.css';
 import Home from './pages/Home/Home';
 import Colaboradores from './pages/Colaboradores/Colaboradores';
+import Aniversario from './pages/Aniversario/Aniversario';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/colaboradores" element={<Colaboradores />} />
+        <Route path='/Aniversario' element={<Aniversario />} />
         {/* Adicione outras rotas aqui conforme necessário */}
       </Routes>
     </BrowserRouter>
