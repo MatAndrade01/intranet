@@ -5,11 +5,15 @@ const CardColaborador = ({src, childrenName, childrenDescrition}) => {
       <>
         <div className='cardContainer'>
             <div className='topCard'>
-              <img src={src} alt='Foto colaborador'></img>
+              <div className='backgroundImg'>
+                <img src={src} alt='Foto colaborador'className='imgColaborador'></img>
+              </div>
             </div>
             <div className='bottomCard'>
-              <h4>{childrenName}</h4>
-              <p>{childrenDescrition}</p>
+              <div className='backgroundText'>
+              <h4 className='nameColaborador'>{childrenName}</h4>
+              <p className='descritionColaborador'>{childrenDescrition}</p>
+              </div>
             </div>
         </div>
       </>
