@@ -15,9 +15,8 @@ const Header = () => {
                 <li className='liNav'>
                     <a href='#' className='linkNav'>Comunicados</a>
                     <ul className='notificationMenu'>
-                        <li className='liNotification'><a href='#' className='linkNotification'>Código de Ética</a></li>
+                        <li className='liNotification'><a href='/comunicado' className='linkNotification'>Comunicados Interno</a></li>
                         <li className='liNotification'><a href='#' className='linkNotification'>Feriados Mensais</a></li>
-                        <li className='liNotification'><a href='#' className='linkNotification'>Comunicado Interno</a></li>
                     </ul>
                 </li>
                 <li className='liNav'>

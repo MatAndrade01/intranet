@@ -1,0 +1,90 @@
+.linkComunicado {
+    text-decoration: none;
+    margin: auto;
+}
+
+.cardComunicadoContainer {
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px #00000033;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.textImportante {
+    display: none;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.877);
+    color: white;
+}
+
+.textImportante > p {
+    font-size: 15px;
+    padding: 90px 10px;
+    line-height: 1.2;
+}
+
+.cardComunicadoContainer:hover .textImportante {
+    transform: translateY(0); 
+    display: block;
+}
+
+.cardComunicadoContainer:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 6px 12px #00000066;
+    cursor: pointer;
+}
+
+.topCardComunicado {
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 250px;
+    height: 45%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+}
+
+.backgroundLogPemotos {
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 3px 6px #00000033;
+    background-color: white;
+}
+
+.logoComunicado { 
+    margin: auto;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottomCardComunicado {
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 250px;
+    height: 55%;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleComunicado {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.descritionComunicado {
+    font-size: 13px;
+    color: #000000;
+}
