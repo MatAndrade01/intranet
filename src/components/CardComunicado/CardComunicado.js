@@ -1,4 +1,3 @@
-import { Children } from 'react';
 import './stylesComunicado.css'
 
 const CardComunicado = ({href, target, src, childrenTitle, childrenDescrition, childrenTextImportant}) => {
