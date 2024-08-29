@@ -1,6 +1,6 @@
-import './styles.css'
+import './stylesHome.css'
 import { Header } from "../../components/Header/Header";
-import { ButtonLink } from "../../components/ButtonLink/Button";
+import { ButtonLink } from '../../components/ButtonLink/ButtonLink';
 import Cloud from "../../assets/imageHome/cloud.png"
 import UnicoAuto from "../../assets/imageHome/unicoAuto.png"
 import Dialugo from "../../assets/imageHome/telephone.png"
@@ -20,11 +20,11 @@ function Home() {
       <body>
         <section>
           <div className='containerSectionHome'>
-            <div className="containerText">
+            <div className="containerTextHome">
               <h2 className='titleHome'> Entre nos Sistemas pra agilizar seu dia a dia</h2>
               <h3 className='subTitleHome'>Confira alguns atalhos que preparamos pra você</h3>
             </div>
-            <div className="containerButtonsLink">
+            <div className="containerButtonsLinkHome">
               <ButtonLink src={Cloud} href='https://microworkcloud.com.br/'children='Cloud' target='_blank'/>
               <ButtonLink src={UnicoAuto} href='https://app.vianuvem.com.br/'children='Único Auto' target='_blank'/>
               <ButtonLink src={Dialugo} href='https://app.gvpomni.com/#/login'children='Dialugo' target='_blank'/>

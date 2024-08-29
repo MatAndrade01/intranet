@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles.css"
+import "./stylesButtonLink.css"
 
 const ButtonLink = ({href,children, src, target = "_self"}) => {
     return (
         <div className="containerButtonLink">
             <a href={href} className="linkButton" target={target}>
-                <img src={src} alt="icon" className="imgButton"></img>
-                <span className="nameButton">{children}</span>
+                <img src={src} alt="icon" className="imgButtonLink"></img>
+                <span className="nameButtonLink">{children}</span>
             </a>
         </div>
     );

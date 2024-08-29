@@ -1,17 +1,17 @@
-.container {
+.containerHearder {
     display: grid;
     grid-template-columns: 25% 75%;
     background-image: linear-gradient(to right, #bb0101, #d60202, #cf0202, #cc0000);
     height: 50px;
 }
 
-.image {
+.imageHeader {
     display: flex;
     align-items: center;
     margin: auto;
 }
 
-.logoPe {
+.logoPeHeader {
     width: 155px;
     height: 40px;
 }
@@ -23,32 +23,32 @@
     position: relative;
 }
 
-.liNav {
+.liNavHeader {
     list-style: none;
     margin: auto;
     position: relative;
 }
 
-.liNav:hover .notificationMenu,
-.liNav:hover .telephoneMenu,
-.liNav:hover .runMenu{
+.liNavHeader:hover .notificationMenuHeader,
+.liNavHeader:hover .telephoneMenuHeader,
+.liNavHeader:hover .runMenuHeader{
     display: block;
     transition: all 0.5s ease; /* Ajusta a duração e o tipo de transição */
 }
 
-.linkNav {
+.linkNavHeader {
     text-decoration: none;
     color: #FFFFFF;
     padding: 17px 35px;
 }
 
-.linkNav:hover {
+.linkNavHeader:hover {
     background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
     border-radius: 20px 20px 0 0;
     cursor: pointer;
 }
 
-.notificationMenu {
+.notificationMenuHeader {
     display: none;
     position: absolute;
     margin-top:  15px; ;
@@ -59,25 +59,25 @@
     z-index: 1000; 
 }
 
-.liNotification {
+.liNotificationHeader {
     list-style: none;
     margin-bottom: 15px;
     padding: 8px 0;
     text-align: center;
 }
 
-.liNotification:hover {
+.liNotificationHeader:hover {
     background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
 }
 
-.linkNotification {
+.linkNotificationHeader {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 13px;
     padding: 8px 0;
 }
 
-.telephoneMenu {
+.telephoneMenuHeader {
     display: none;
     position: absolute;
     margin-top:  15px; ;
@@ -88,7 +88,7 @@
     z-index: 1000;
 }
 
-.liTelephone {
+.liTelephoneHeader {
     list-style: none;
     margin-bottom: 15px;
     text-align: center;
@@ -96,18 +96,18 @@
 
 }
 
-.liTelephone:hover {
+.liTelephoneHeader:hover {
     background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
 }
 
-.linkTelephone {
+.linkTelephoneHeader {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 13px;
     padding: 8px 0;
 }
 
-.runMenu {
+.runMenuHeader {
     display: none;
     position: absolute;
     margin-top:  15px; ;
@@ -118,7 +118,7 @@
     z-index: 1000;
 }
 
-.liRun {
+.liRunHeader {
     list-style: none;
     margin-bottom: 15px;
     text-align: center;
@@ -126,11 +126,11 @@
 
 }
 
-.liRun:hover {
+.liRunHeader:hover {
     background-image: linear-gradient(to right, #a50202, #a10202, #b60303);
 }
 
-.linkRun {
+.linkRunHeader {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 13px;

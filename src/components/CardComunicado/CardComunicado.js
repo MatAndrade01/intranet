@@ -3,15 +3,13 @@ import './stylesComunicado.css'
 const CardComunicado = ({href, target, src, childrenTitle, childrenDescrition, childrenTextImportant}) => {
     return (
         <>
-        
         <a href={href} target={target} className='linkComunicado'>
-            
             <div className='cardComunicadoContainer'>
                 <div className='textImportante'>
                     <p>{childrenTextImportant}</p>
                 </div>
                 <div className='topCardComunicado'>
-                    <div className='backgroundLogPemotos'>
+                    <div className='backgroundLogPemotosComunicado'>
                         <img src={src} alt='Logo PeMotos'className='logoComunicado'></img>
                     </div>
                 </div>

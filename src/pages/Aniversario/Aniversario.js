@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from '../../components/Header/Header';
 import { CardAniversariante } from '../../components/CardAniversariante/CardAniversariante';
-import './styles.css';
+import './stylesAniversariantes.css';
 
 // URL da API (exemplo)
 const API_URL = 'https://api.exemplo.com/aniversariantes';

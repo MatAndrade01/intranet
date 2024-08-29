@@ -1,41 +1,41 @@
-.containerCardRamaisMatriz {
+.containerCardRamais {
     border-radius: 15px;
     border: solid 1px rgba(223, 4, 4, 0.884);
     box-shadow: 0px 3px 6px #00000033;
     width: 17rem;
-    margin-bottom: 20px; /* Ajuste o espaçamento inferior conforme necessário */
+    margin-bottom: 20px;
 }
 
 
-.topCardRamaisMatriz {
-    background-color: rgba(223, 4, 4, 0.884);
+.topCardRamais {
+    background-image: linear-gradient(to right, #bb0101, #d60202, #cf0202, #cc0000);
     border-radius: 12px 12px 0 0;
     color: #FFFFFF;
     height: 40px;
     display: flex;
-    align-items: center; /* Alinha o conteúdo verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    justify-content: center;
 }
 
-.bottomCardRamaisMatriz {
+.bottomCardRamais {
     background-color: rgba(255, 255, 255, 0.678);
     border-radius: 0 0 15px 15px;
-    padding: 10px; /* Adiciona padding ao redor dos itens */
+    padding: 10px;
     
 }
 
-.ramalItemMatriz {
+.ramalItem {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens dentro de ramalItemMatriz */
+    align-items: center; 
 }
 
-.ramalMatriz {
+.ramal {
     padding: 10px 0;
     font-size: 1rem;
 }
 
-.hrCarRamaisMatriz {
+.hrCarRamais {
     width: 100%;
     border: 0;
     border-top: 1px solid #ccc;

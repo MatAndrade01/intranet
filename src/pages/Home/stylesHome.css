@@ -34,7 +34,7 @@
     max-width: 315px;
 }
 
-.containerButtonsLink {
+.containerButtonsLinkHome {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
 }

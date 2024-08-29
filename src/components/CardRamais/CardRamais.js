@@ -2,17 +2,17 @@ import './stylesCardRamais.css';
 
 const CardRamais = ({ title, ramais = [] }) => {
     return (
-        <div className="containerCardRamaisMatriz">
-            <div className="topCardRamaisMatriz">
-                <p className='titleCardRamaisMatriz'>{title}</p>
+        <div className="containerCardRamais">
+            <div className="topCardRamais">
+                <p className='titleCardRamais'>{title}</p>
             </div>
-            <div className="bottomCardRamaisMatriz">
+            <div className="bottomCardRamai">
                 {ramais.map((ramal, index) => (
-                    <div key={index} className='ramalItemMatriz'>
-                        <p className='ramalMatriz'>{ramal}</p>
+                    <div key={index} className='ramalItem'>
+                        <p className='ramal'>{ramal}</p>
                         {/* Renderize <hr> apenas se o ramal não for o último */}
                         {index < ramais.length - 1 && (
-                            <hr className='hrCarRamaisMatriz' />
+                            <hr className='hrCarRamais' />
                         )}
                     </div>
                 ))}

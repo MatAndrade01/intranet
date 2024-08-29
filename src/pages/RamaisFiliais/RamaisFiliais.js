@@ -122,6 +122,7 @@ function RamaisFilias() {
                 'Caixa -',
                 'Novos -',
                 'Novos -',
+                'Peças Balcão -',
                 'Oficina -',
             ]
         },
@@ -132,8 +133,8 @@ function RamaisFilias() {
     return (
         <div>
             <Header />
-            <div className="bodyRamaisMatriz">
-                <section className="sectionRamaisMatriz">
+            <div className="bodyRamaisFilial">
+                <section className="sectionRamaisFilial">
                     {cards.map((card, index) => (
                         <CardRamais
                             key={index}

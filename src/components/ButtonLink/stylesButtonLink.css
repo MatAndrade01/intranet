@@ -24,13 +24,13 @@
 }
 
 
-.imgButton {
+.imgButtonLink {
     display: flex;
     justify-content: center;
     transition: filter 0.4s; 
 }
 
-.nameButton {
+.nameButtonLink {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
@@ -45,11 +45,11 @@
 }
 
 
-.containerButtonLink:hover .nameButton {
+.containerButtonLink:hover .nameButtonLink {
     color: #FFFFFF; 
 }
 
 
-.containerButtonLink:hover .imgButton {
+.containerButtonLink:hover .imgButtonLink {
     filter: grayscale(100%) invert(100%) brightness(100%);
 }
