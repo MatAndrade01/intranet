@@ -6,6 +6,8 @@ import Home from './pages/Home/Home';
 import Aniversario from './pages/Aniversario/Aniversario';
 import Colaboradores from './pages/Colaboradores/Colaboradores';
 import Comunicado from './pages/Comunicado/Comunicado';
+import RamaisMatriz from './pages/RamaisMatriz/RamaisMatriz';
+import RamaisFilias from './pages/RamaisFiliais/RamaisFiliais';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
         <Route path="/colaboradores" element={<Colaboradores />} />
         <Route path='/Aniversario' element={<Aniversario />} />
         <Route path='/Comunicado' element={<Comunicado />} />
+        <Route path='/RamaisMatriz' element={<RamaisMatriz />} />
+        <Route path='/RamaisFiliais' element={<RamaisFilias />} />
         {/* Adicione outras rotas aqui conforme necessário */}
       </Routes>
     </BrowserRouter>

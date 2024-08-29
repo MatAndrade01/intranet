@@ -22,8 +22,8 @@ const Header = () => {
                 <li className='liNav'>
                     <a href='#' className='linkNav'>Ramais</a>
                     <ul className='telephoneMenu'>
-                        <li className='liTelephone'><a href='#' className='linkTelephone'>Matriz</a></li>
-                        <li className='liTelephone'><a href='#' className='linkTelephone'>Filial</a></li>
+                        <li className='liTelephone'><a href='/ramaismatriz' className='linkTelephone'>Matriz</a></li>
+                        <li className='liTelephone'><a href='/ramaisfiliais' className='linkTelephone'>Filial</a></li>
                     </ul>
                 </li>
                 <li className='liNav'>
