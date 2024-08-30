@@ -1,6 +1,7 @@
 import './stylesRamaisMatriz.css'
 import { Header } from "../../components/Header/Header";
 import { CardRamais } from "../../components/CardRamais/CardRamais";
+import { Footer } from "../../components/Footer/Footer"
 
 function RamaisMatriz() {
     // Lista de cartões, onde cada cartão tem um título e uma lista de ramais
@@ -181,6 +182,7 @@ function RamaisMatriz() {
                     ))}
                 </section>
             </div>
+            <Footer />
         </div>
     );
 }

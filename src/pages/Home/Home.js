@@ -10,6 +10,8 @@ import IHS from "../../assets/imageHome/ihs.png"
 import CofreSieg from "../../assets/imageHome/cofreSieg.png"
 import SuporteTI from "../../assets/imageHome/suporteTI.png"
 import WebMail from "../../assets/imageHome/webMail.png"
+import { Footer } from "../../components/Footer/Footer"
+
 
 function Home() {
 
@@ -17,7 +19,7 @@ function Home() {
   return (
     <div className="App">
       <Header />
-      <body>
+      <div>
         <section>
           <div className='containerSectionHome'>
             <div className="containerTextHome">
@@ -37,7 +39,8 @@ function Home() {
             </div>
           </div>
         </section>
-      </body>
+      </div>
+      <Footer />
     </div>
   );
 }

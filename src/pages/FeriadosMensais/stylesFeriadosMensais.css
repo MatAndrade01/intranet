@@ -1,11 +1,10 @@
-
-
-.bodyComunicado {
-    margin-top: 20px;
-    height: 100vh;
+.bodyFeriadosMensais {
+    margin-top: 25px;
 }
 
-.titleComunicadopage {
+
+
+.titleFeriadosMensais {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
@@ -19,12 +18,8 @@
     margin-bottom: 25px;
 }
 
-.sectionComunicado {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    box-shadow: 0px 3px 20px #00000033;
-    padding: 50px;
-    width: 90%;
-    border-radius: 15px;
+.containerFeriadosMensais {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
 }

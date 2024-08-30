@@ -15,8 +15,8 @@ const Header = () => {
                 <li className='liNavHeader'>
                     <a href='#' className='linkNavHeader'>Comunicados</a>
                     <ul className='notificationMenuHeader'>
-                        <li className='liNotificationHeader'><a href='/comunicado' className='linkNotificationHeader'>Comunicados Interno</a></li>
-                        <li className='liNotificationHeader'><a href='#' className='linkNotificationHeader'>Feriados Mensais</a></li>
+                        <li className='liNotificationHeader'><a href='/comunicadointerno' className='linkNotificationHeader'>Comunicados Interno</a></li>
+                        <li className='liNotificationHeader'><a href='/feriadosmensais' className='linkNotificationHeader'>Feriados Mensais</a></li>
                     </ul>
                 </li>
                 <li className='liNavHeader'>

@@ -1,6 +1,7 @@
 import './stylesRamaisFiliais.css'
 import { Header } from "../../components/Header/Header";
 import { CardRamais } from '../../components/CardRamais/CardRamais';
+import { Footer } from '../../components/Footer/Footer';
 
 function RamaisFilias() {
     
@@ -144,6 +145,7 @@ function RamaisFilias() {
                     ))}
                 </section>
             </div>
+            <Footer />
         </div>
     );
 }

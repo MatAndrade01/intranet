@@ -1,7 +1,8 @@
+import './stylesAniversariantes.css';
 import React, { useState, useEffect } from 'react';
 import { Header } from '../../components/Header/Header';
 import { CardAniversariante } from '../../components/CardAniversariante/CardAniversariante';
-import './stylesAniversariantes.css';
+import { Footer } from '../../components/Footer/Footer';
 
 // URL da API (exemplo)
 const API_URL = 'https://api.exemplo.com/aniversariantes';
@@ -43,7 +44,7 @@ const Aniversariantes = () => {
   return (
     <div className='aniversariantesContainer'>
       <Header />
-      <body className='bodyAniversariantes'>
+      <div className='bodyAniversariantes'>
         <h1 className='titleAniversariantes'>Aniversariantes</h1>
 
         <section className='sectionSelect'>
@@ -84,7 +85,8 @@ const Aniversariantes = () => {
             <p className='menssageSemAniversariante'>Nenhum aniversariante para este mês.</p>
           )}
         </section>
-      </body>
+      </div>
+      <Footer />
     </div>
   );
 };
