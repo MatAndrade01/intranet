@@ -1,9 +1,9 @@
-.linkComunicado {
+.linkComunicadoInterno {
     text-decoration: none;
     margin: auto;
 }
 
-.cardComunicadoContainer {
+.cardComunicadoInternoContainer {
     text-align: center;
     width: 250px;
     height: 300px;
@@ -33,18 +33,18 @@
     line-height: 1.2;
 }
 
-.cardComunicadoContainer:hover .textImportante {
+.cardComunicadoInternoContainer:hover .textImportante {
     transform: translateY(0); 
     display: block;
 }
 
-.cardComunicadoContainer:hover {
+.cardComunicadoInternoContainer:hover {
     transform: scale(1.15);
     box-shadow: 0px 6px 12px #00000066;
     cursor: pointer;
 }
 
-.topCardComunicado {
+.topCardComunicadoInterno {
     background-color: rgba(0, 0, 0, 0.589);
     width: 250px;
     height: 45%;
@@ -52,7 +52,7 @@
     display: flex;
 }
 
-.backgroundLogPemotosComunicado {
+.backgroundLogPemotosComunicadoInterno {
     display: flex;
     margin: auto;
     width: 100px;
@@ -62,13 +62,13 @@
     background-color: white;
 }
 
-.logoComunicado { 
+.logoComunicadoInterno { 
     margin: auto;
     height: 40px;
     background-color: rgb(255, 255, 255);
 }
 
-.bottomCardComunicado {
+.bottomCardComunicadoInterno {
     background-color: rgba(255, 255, 255, 0.678);
     width: 250px;
     height: 55%;
@@ -78,13 +78,13 @@
     justify-content: center;
 }
 
-.titleComunicado {
+.titleComunicadoInterno {
     font-size: 15px;
     margin-bottom: 10px;
     color: #000000;
 }
 
-.descritionComunicado {
+.descritionComunicadoInterno {
     font-size: 13px;
     color: #000000;
 }

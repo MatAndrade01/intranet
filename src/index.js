@@ -5,7 +5,7 @@ import './global.css';
 import Home from './pages/Home/Home';
 import Aniversario from './pages/Aniversario/Aniversario';
 import Colaboradores from './pages/Colaboradores/Colaboradores';
-import Comunicado from './pages/Comunicado/Comunicado';
+import ComunicadoInterno from './pages/ComunicadoInterno/ComunicadoInterno';
 import RamaisMatriz from './pages/RamaisMatriz/RamaisMatriz';
 import RamaisFilias from './pages/RamaisFiliais/RamaisFiliais';
 
@@ -17,7 +17,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/colaboradores" element={<Colaboradores />} />
         <Route path='/Aniversario' element={<Aniversario />} />
-        <Route path='/Comunicado' element={<Comunicado />} />
+        <Route path='/Comunicado' element={<ComunicadoInterno />} />
         <Route path='/RamaisMatriz' element={<RamaisMatriz />} />
         <Route path='/RamaisFiliais' element={<RamaisFilias />} />
         {/* Adicione outras rotas aqui conforme necessário */}
