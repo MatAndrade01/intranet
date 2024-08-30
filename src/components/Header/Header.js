@@ -1,6 +1,6 @@
 import './styles.css';
-import { Link } from 'react-router-dom'; // Importe Link do react-router-dom
-import Logo from '../../assets/imageHeader/logoPeMotos.png'
+import { NavLink } from 'react-router-dom'; // Importe NavLink do react-router-dom
+import Logo from '../../assets/imageHeader/logoPeMotos.png';
 
 const Header = () => {
     return (
@@ -9,9 +9,15 @@ const Header = () => {
                 <img src={Logo} alt='Logo' className='logoPeHeader' />
             </div>
             <ul className='navigation'>
-                <li className='liNavHeader'><Link to='/' className='linkNavHeader'>Home</Link></li>
-                <li className='liNavHeader'><Link to='/aniversario' className='linkNavHeader'>Aniversário</Link></li>
-                <li className='liNavHeader'><Link to='/colaboradores' className='linkNavHeader'>Colaboradores</Link></li>
+                <li className='liNavHeader'>
+                    <NavLink to='/home' className={({ isActive }) => isActive ? 'linkNavHeader active' : 'linkNavHeader'}>Home</NavLink>
+                </li>
+                <li className='liNavHeader'>
+                    <NavLink to='/aniversario' className={({ isActive }) => isActive ? 'linkNavHeader active' : 'linkNavHeader'}>Aniversário</NavLink>
+                </li>
+                <li className='liNavHeader'>
+                    <NavLink to='/colaboradores' className={({ isActive }) => isActive ? 'linkNavHeader active' : 'linkNavHeader'}>Colaboradores</NavLink>
+                </li>
                 <li className='liNavHeader'>
                     <a href='#' className='linkNavHeader'>Comunicados</a>
                     <ul className='notificationMenuHeader'>
